@@ -1,6 +1,6 @@
 Feature: Ebay home page functionalities
 
-@Sanity @Regression
+@Smoke
 Scenario: Verify Ebay home page functionalities
 Given I am in Ebay Landing page
 When I Hover my mouse in Electronics Menu

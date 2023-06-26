@@ -1,6 +1,6 @@
 Feature: Ebay Search Box Functionalities
 
-@Sanity
+@Smoke
 Scenario: Verifying ebay search box functionalities
 Given I am in Ebay Landing Page
 When I Type Toyota in search box
