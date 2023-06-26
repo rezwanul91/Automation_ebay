@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 public class Base {
-	public static WebDriver driver;
+	protected static WebDriver driver;
 	
 	public static void navigateUrl(String url) {
 		driver.get(url);

@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = {"src\\test\\resources\\features"},
 		glue = {"step_Definitions"},
-		tags = "@Sanity",
+		tags = "@Smoke",
 		monochrome = true,
 		//dryRun = true,
 		dryRun = false,
