@@ -52,6 +52,7 @@ public class Verifying_Ebay_Search_Box extends Base{
 		Thread.sleep(2000);
 	   String actual = getElementText(By.xpath("//span[@class='ux-textspans ux-textspans--BOLD'][text()='1982 Toyota Pickup DLX']"));
 	   assertEquals("1982 Toyota Pickup DLX", actual);
+		System.out.println("verification done");
 	}
 	
 	@Then("I Back in landing page")
@@ -59,4 +60,4 @@ public class Verifying_Ebay_Search_Box extends Base{
 	    backNev();
 	}
 
-}//class
+}

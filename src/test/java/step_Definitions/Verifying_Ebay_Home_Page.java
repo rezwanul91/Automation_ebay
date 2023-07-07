@@ -25,8 +25,7 @@ public class Verifying_Ebay_Home_Page extends Base {
 
 	@Then("I click on Camera and Photo")
 	public void i_click_on_camera_and_photo() throws InterruptedException {
-		
-	//click(By.xpath("//a[@href='https://www.ebay.com/b/Cameras-Photo/625/bn_1865546']"));
+
 		click(By.xpath("//a[@href='https://www.ebay.com/b/Cameras-Photo/625/bn_1865546'][@class='hl-cat-nav__js-link']"));
 		Thread.sleep(2000);
 	}
@@ -50,4 +49,4 @@ public class Verifying_Ebay_Home_Page extends Base {
 		assertEquals("Canon Digital SLR Cameras", actualCan);
 	}
 
-}// class
+}
